@@ -55,6 +55,13 @@ img {
     display: flex;
     align-items: center;
     gap: 10px;
+    color: #663046;
+}
+.nav-link-home {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #4d4dff;
 }
 .chart {
     display: flex;
@@ -145,5 +152,74 @@ img {
     display: grid;
     grid-template-columns: 2fr 1fr;
     margin-top: 30px;
+    gap: 25px;
+}
+.design {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 8px;
+}
+.big {
+    background-color: #f0ffff;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.principle {
+    font-weight: 600;
+    font-size: larger;
+}
+.time {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+.time img {
+    height: 100px;
+    width: 100px;
+}
+.time div {
+    padding: 5px;
+    background-color: #ececec;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5px;
+}
+.user {
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
     gap: 10px;
+}
+.user img {
+    height: 50px;
+}
+.name {
+    font-size: 14px;
+    line-height: 0%;
+}
+.date {
+    font-size: 10px;
+}
+.theme {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+.edu-col {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.education {
+    display: flex;
+    height: 120px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    background-color: #f0ffff;
 }
